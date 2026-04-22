@@ -1,0 +1,944 @@
+font-sekuya
+font-stack-sans-headline
+font-stack-sans-notch
+font-stack-sans-text
+font-urw-core35
+fontra-pak: Browser-based font editor
+freepdf: Reader that supports translating PDF documents
+freetex: Free intelligent formula recognition software
+karing: Proxy utility
+kimi: AI chat assistant from Moonshot
+labymod: Launcher for LabyMod (Minecraft client)
+laserpecker-design-space: Laser engraving and cutting software
+launchie: Launchpad replacement
+launchos: Launchpad alternative
+liquibase-community: Library for database change tracking
+liquibase-secure: Database change management tool
+llamabarn: Menu bar app for running local LLMs
+locu: Daily planner and focus timer
+macpacker: Archive manager
+mcloud: China Mobile Cloud Drive
+meituxiuxiu: Photo editing and beautification software
+mountmate: Menubar app to easily manage external drives
+mozregression-gui: Interactive regression range finder for Firefox and other Mozilla products
+nkoda: Digital sheet music app
+nook: Minimal browser with a sidebar-first design
+notepadexe: Lightweight code editor
+okta-verify: Identity verification provider
+openlist-app: Desktop application for OpenList
+orcasheets: Local-first data analytics
+pikpak: Client for PikPak cloud storage service
+pot: Software for text translation and recognition
+proxygen-app: HTTP proxy tool
+pxplay: Third-party Remote Play client for PlayStation consoles
+qianwen: AI assistant and chatbot powered by Alibaba's Qwen model
+qidistudio: Slicer software for QIDI 3D printers
+qqnews: Tencent News client
+sculptor: GUI for Claude Code
+shell360: Cross-platform SSH & SFTP client
+simplysign: Emulates a physical crypto card/reader for proCertum SmartSign
+sodamusic: Music app
+strawberry: AI-powered web browser
+taobao: Online Shopping Client
+white-rabbit: SVG utility and optimiser
+whodb: Database management tool with AI-powered features
+wiso-steuer-2026: Tax declaration for the fiscal year 2025
+wootility: Configuration software for Wooting keyboards
+zo: Friendly personal server
+==> Outdated Formulae
+akamai             frei0r             jansson            libpng             openssl@3          sqlite
+aom                gdbm               jasper             librist            p11-kit            svt-av1
+appstream          gdk-pixbuf         jpeg-turbo         libssh             pango              telnet
+azure-cli          gettext            jpeg-xl            libtiff            pcre2              terraform
+brotli             ghostscript        leptonica          libxmlb            pipx               tesseract
+ca-certificates    glib               libadwaita         m4                 pyenv              unbound
+cjson              gnutls             libarchive         mbedtls            python@3.10        uv
+curl               gtk4               libbluray          mpg123             python@3.11        x264
+dav1d              harfbuzz           libde265           mtr                python@3.12        zenity
+expat              highway            libdeflate         nvm                python@3.13
+ffmpeg             icu4c@77           libheif            openexr            readline
+fontconfig         imagemagick        libnghttp2         openjpeg           sdl2
+freetype           imath              libomp             openssl@1.1        shared-mime-info
+==> Outdated Casks
+powershell
+
+You have 74 outdated formulae and 1 outdated cask installed.
+You can upgrade them with brew upgrade
+or list them with brew outdated.
+(venv) tnaik@bos-mpwks GeneralMotors % akamai install appsec
+Attempting to fetch command from https://github.com/akamai/cli-appsec.git... [OK]
+Installing... [FAIL]
+higher version is required to install this command: required: Node.js:22.0.0, have: 14.21.3. Please upgrade your runtime
+ ERROR[0001] higher version is required to install this command: required: Node.js:22.0.0, have: 14.21.3. Please upgrade your runtime command=install
+ ERROR[0001] INSTALL ERROR: Unable to install selected package command=install
+Unable to install selected package
+(venv) tnaik@bos-mpwks GeneralMotors % command -v nvm
+nvm
+(venv) tnaik@bos-mpwks GeneralMotors % nvm install 22
+Downloading and installing node v22.21.1...
+Downloading https://nodejs.org/dist/v22.21.1/node-v22.21.1-darwin-arm64.tar.xz...
+############################################################################################################# 100.0%
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v22.21.1 (npm v10.9.4)
+(venv) tnaik@bos-mpwks GeneralMotors % nvm use 22
+Now using node v22.21.1 (npm v10.9.4)
+(venv) tnaik@bos-mpwks GeneralMotors % akamai install appsec
+Attempting to fetch command from https://github.com/akamai/cli-appsec.git... [OK]
+Installing... [OK]
+
+Installed Commands:
+
+  appsec (alias: appsec/appsec)
+    Akamai Security tools for protecting websites.
+  cloudlets (aliases: cloudlets, cloudlets/cloudlets)
+    Manage Akamai Cloudlets
+  config
+    Manage configuration
+  cps (aliases: certs, cps/cps)
+    Access Certificate Provisioning System (CPS) Information
+  eaa (alias: eaa/eaa)
+    Akamai CLI for Enterprise Application Access (EAA)
+  edgekv (aliases: ekv, edgekv, edgeworkers/edgekv)
+    Manage Akamai EdgeKV database.
+  edgeworkers (aliases: ew, edgeworkers, edgeworkers/edgeworkers)
+    Manage Akamai EdgeWorkers code bundles.
+  gtm (alias: gtm/gtm)
+    Manage GTM Domains
+  help
+    Displays help information
+  install (alias: get)
+    Fetch and install packages from a Git repository
+  jsonnet (aliases: jsonnet, jsonnet/jsonnet)
+    Utilities for managing Akamai as jsonnet
+  list
+    By default, displays installed commands. Optionally, can display package commands from Git repositories
+  netstorage (alias: netstorage/netstorage)
+    Interface for Akamai NetStorage
+  pipeline (aliases: pl, pd, proddeploy, property-manager/pipeline)
+    Akamai Pipeline for DevOps
+  property-manager (aliases: pm, snippets, property-manager/property-manager)
+    Property Manager CLI for DevOps
+  purge (alias: purge/purge)
+    Purge content from the Edge
+  sandbox (alias: sandbox/sandbox)
+    Manage Akamai Sandbox environments.
+  search
+    Search for packages in the official Akamai CLI package repository
+  terraform (alias: terraform/terraform)
+    Administer and Manage Akamai Terraform configurations
+  uninstall
+    Uninstall package containing <command>
+  update
+    Update one or more commands. If no command is specified, all commands are updated
+  upgrade
+    Upgrade Akamai CLI to the latest version
+
+See "akamai help [command]" for details.
+(venv) tnaik@bos-mpwks GeneralMotors % akamai
+Usage:
+  akamai [global flags] command [command flags] [arguments...]
+
+Commands:
+  config
+  install (alias: get)
+  list
+  search
+  uninstall
+  update
+  upgrade
+  help
+Installed Commands::
+  appsec (alias: appsec/appsec)
+  cloudlets (aliases: cloudlets, cloudlets/cloudlets)
+  cps (aliases: certs, cps/cps)
+  eaa (alias: eaa/eaa)
+  edgekv (aliases: ekv, edgekv, edgeworkers/edgekv)
+  edgeworkers (aliases: ew, edgeworkers, edgeworkers/edgeworkers)
+  gtm (alias: gtm/gtm)
+  jsonnet (aliases: jsonnet, jsonnet/jsonnet)
+  netstorage (alias: netstorage/netstorage)
+  pipeline (aliases: pl, pd, proddeploy, property-manager/pipeline)
+  property-manager (aliases: pm, snippets, property-manager/property-manager)
+  purge (alias: purge/purge)
+  sandbox (alias: sandbox/sandbox)
+  terraform (alias: terraform/terraform)
+
+Global Flags:
+  --edgerc value, -e value                 Location of the credentials file [$AKAMAI_EDGERC]
+  --section value, -s value                Section of the credentials file [$AKAMAI_EDGERC_SECTION]
+  --accountkey value, --account-key value  Account switch key [$AKAMAI_EDGERC_ACCOUNT_KEY]
+  --help                                   show help (default: false)
+  --bash                                   Output bash auto-complete (default: false)
+  --zsh                                    Output zsh auto-complete (default: false)
+  --proxy value                            Set a proxy to use
+  --version                                Output CLI version (default: false)
+
+Copyright (C) Akamai Technologies, Inc
+(venv) tnaik@bos-mpwks GeneralMotors % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py
+Traceback (most recent call last):
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+(venv) tnaik@bos-mpwks GeneralMotors % pip install pandas
+Collecting pandas
+  Using cached pandas-2.3.3-cp313-cp313-macosx_11_0_arm64.whl.metadata (91 kB)
+Collecting numpy>=1.26.0 (from pandas)
+  Downloading numpy-2.3.5-cp313-cp313-macosx_14_0_arm64.whl.metadata (62 kB)
+Collecting python-dateutil>=2.8.2 (from pandas)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz>=2020.1 (from pandas)
+  Using cached pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas)
+  Using cached tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Using cached pandas-2.3.3-cp313-cp313-macosx_11_0_arm64.whl (10.7 MB)
+Downloading numpy-2.3.5-cp313-cp313-macosx_14_0_arm64.whl (5.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.1/5.1 MB 30.4 MB/s  0:00:00
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Using cached tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Installing collected packages: pytz, tzdata, six, numpy, python-dateutil, pandas
+Successfully installed numpy-2.3.5 pandas-2.3.3 python-dateutil-2.9.0.post0 pytz-2025.2 six-1.17.0 tzdata-2025.2
+(venv) tnaik@bos-mpwks GeneralMotors % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py
+Your session cookies are valid. Proceeding ahead with the product change...
+Traceback (most recent call last):
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py", line 59, in <module>
+    df = pd.read_excel('configlist2.xls')
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 495, in read_excel
+    io = ExcelFile(
+        io,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+        content_or_path=path_or_buffer, storage_options=storage_options
+    )
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ~~~~~~~~~~^
+        content_or_path, "rb", storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handle:
+    ^
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'configlist2.xls'
+(venv) tnaik@bos-mpwks GeneralMotors % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py
+Your session cookies are valid. Proceeding ahead with the product change...
+Traceback (most recent call last):
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/compat/_optional.py", line 135, in import_optional_dependency
+    module = importlib.import_module(name)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'xlrd'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py", line 59, in <module>
+    df = pd.read_excel('configlist.xls')
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 495, in read_excel
+    io = ExcelFile(
+        io,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 1567, in __init__
+    self._reader = self._engines[engine](
+                   ~~~~~~~~~~~~~~~~~~~~~^
+        self._io,
+        ^^^^^^^^^
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        engine_kwargs=engine_kwargs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_xlrd.py", line 45, in __init__
+    import_optional_dependency("xlrd", extra=err_msg)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/compat/_optional.py", line 138, in import_optional_dependency
+    raise ImportError(msg)
+ImportError: Missing optional dependency 'xlrd'. Install xlrd >= 2.0.1 for xls Excel support Use pip or conda to install xlrd.
+(venv) tnaik@bos-mpwks GeneralMotors % pip install xlrd
+Collecting xlrd
+  Downloading xlrd-2.0.2-py2.py3-none-any.whl.metadata (3.5 kB)
+Downloading xlrd-2.0.2-py2.py3-none-any.whl (96 kB)
+Installing collected packages: xlrd
+Successfully installed xlrd-2.0.2
+(venv) tnaik@bos-mpwks GeneralMotors % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py
+Your session cookies are valid. Proceeding ahead with the product change...
+Changing Product for 11260-FOS.vsp.tst.gm.com by creating new version 8
+Error in changing the product for 11260-FOS.vsp.tst.gm.com to Ion Standard
+********************************************************************************
+(venv) tnaik@bos-mpwks GeneralMotors % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py
+Your session cookies are valid. Proceeding ahead with the product change...
+Changing Product for 11260-FOS.vsp.tst.gm.com by creating new version 9
+Error in changing the product for 11260-FOS.vsp.tst.gm.com to Ion Standard
+Response is
+********************************************************************************
+(venv) tnaik@bos-mpwks GeneralMotors % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py
+Your session cookies are valid. Proceeding ahead with the product change...
+Changing Product for 11260-FOS.vsp.tst.gm.com by creating new version 10
+Error in changing the product for 11260-FOS.vsp.tst.gm.com to Ion Standard
+Response Status: 405
+Response Text: {"type":"https://problems.luna.akamaiapis.net/pm-backend/http/method-not-allowed","title":"PropertyManager Exception","instance":"https://control.akamai.com:443/pm-backend-blue/service/v1/error#327566327a4cb277","status":405,"errors":[{"type":"https://problems.luna.akamaiapis.net/pm-backend/http/method-not-allowed","title":"Method not allowed","detail":"The system does not support the method you provided for this resource."}],"details":{},"messageId":"PropertyManager Exception","params":[],"result":"ERROR"}
+Response JSON: Not JSON
+********************************************************************************
+(venv) tnaik@bos-mpwks GeneralMotors % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py
+Your session cookies are valid. Proceeding ahead with the product change...
+Changing Product for 11260-FOS.vsp.tst.gm.com by creating new version 12
+Error in changing the product for 11260-FOS.vsp.tst.gm.com to Ion Standard
+Response Status: 405
+Response Text: {"type":"https://problems.luna.akamaiapis.net/pm-backend/http/method-not-allowed","title":"PropertyManager Exception","instance":"https://control.akamai.com:443/pm-backend-green/service/v1/error#b1e53a7e89ddd03b","status":405,"errors":[{"type":"https://problems.luna.akamaiapis.net/pm-backend/http/method-not-allowed","title":"Method not allowed","detail":"The system does not support the method you provided for this resource."}],"details":{},"messageId":"PropertyManager Exception","params":[],"result":"ERROR"}
+Response JSON: Not JSON
+********************************************************************************
+(venv) tnaik@bos-mpwks GeneralMotors % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py
+Your session cookies are valid. Proceeding ahead with the product change...
+
+Changing Product for 11260-FOS.vsp.tst.gm.com by creating new version 13
+Request Params: {'accountId': '1-2JA0T', 'product': 'Fresca', 'aid': '11062399', 'gid': '243658', 'v': '13'}
+SUCCESS: Changed product for 11260-FOS.vsp.tst.gm.com to Ion Standard
+Response: {"result":"OK"}
+******************************************************************************************
+(venv) tnaik@bos-mpwks GeneralMotors % ls
+configlist.xls                                          prod_change.py
+General Motors Prperty list extract 7th Oct'25.xlsx     property-manager-product-migration-main@6320c17cb63
+GMCommand.txt                                           property-manager-product-migration-main@6320c17cb63.zip
+prod_change copy.py                                     requirements.txt
+(venv) tnaik@bos-mpwks GeneralMotors % cd property-manager-product-migration-main@6320c17cb63
+(venv) tnaik@bos-mpwks property-manager-product-migration-main@6320c17cb63 % ls
+__pycache__             configlist_gm.xls       README.md
+akamai_config.py        prod_change.py          requirements.txt
+(venv) tnaik@bos-mpwks property-manager-product-migration-main@6320c17cb63 % cd property-manager-product-migration-main@6320c17cb63
+cd: no such file or directory: property-manager-product-migration-main@6320c17cb63
+(venv) tnaik@bos-mpwks property-manager-product-migration-main@6320c17cb63 % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py
+Your session cookies are valid. Proceeding ahead with the product change...
+Traceback (most recent call last):
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py", line 76, in <module>
+    df = pd.read_excel('configlist.xls')
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 495, in read_excel
+    io = ExcelFile(
+        io,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+        content_or_path=path_or_buffer, storage_options=storage_options
+    )
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ~~~~~~~~~~^
+        content_or_path, "rb", storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handle:
+    ^
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'configlist.xls'
+(venv) tnaik@bos-mpwks property-manager-product-migration-main@6320c17cb63 % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py
+Your session cookies are valid. Proceeding ahead with the product change...
+Traceback (most recent call last):
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py", line 76, in <module>
+    df = pd.read_excel('configlist.xls')
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 495, in read_excel
+    io = ExcelFile(
+        io,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+        content_or_path=path_or_buffer, storage_options=storage_options
+    )
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ~~~~~~~~~~^
+        content_or_path, "rb", storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handle:
+    ^
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'configlist.xls'
+(venv) tnaik@bos-mpwks property-manager-product-migration-main@6320c17cb63 % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py
+Your session cookies are valid. Proceeding ahead with the product change...
+Traceback (most recent call last):
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py", line 76, in <module>
+    df = pd.read_excel('configlist.xls')
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 495, in read_excel
+    io = ExcelFile(
+        io,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+        content_or_path=path_or_buffer, storage_options=storage_options
+    )
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ~~~~~~~~~~^
+        content_or_path, "rb", storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handle:
+    ^
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'configlist.xls'
+(venv) tnaik@bos-mpwks property-manager-product-migration-main@6320c17cb63 % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py
+Your session cookies are valid. Proceeding ahead with the product change...
+Traceback (most recent call last):
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/prod_change.py", line 76, in <module>
+    df = pd.read_excel('configlist.xls')
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 495, in read_excel
+    io = ExcelFile(
+        io,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 1550, in __init__
+    ext = inspect_excel_format(
+        content_or_path=path_or_buffer, storage_options=storage_options
+    )
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/excel/_base.py", line 1402, in inspect_excel_format
+    with get_handle(
+         ~~~~~~~~~~^
+        content_or_path, "rb", storage_options=storage_options, is_text=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handle:
+    ^
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/venv/lib/python3.13/site-packages/pandas/io/common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'configlist.xls'
+(venv) tnaik@bos-mpwks property-manager-product-migration-main@6320c17cb63 % python3 prod_change.py                
+Traceback (most recent call last):
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/property-manager-product-migration-main@6320c17cb63/prod_change.py", line 9, in <module>
+    from PropertyManagerProductMigration.akamai_config import akatoken, akasso, xsrf_token, accountSwitchKey, edgerc_location, activation_emails, reviewer_email
+ModuleNotFoundError: No module named 'PropertyManagerProductMigration'
+(venv) tnaik@bos-mpwks property-manager-product-migration-main@6320c17cb63 % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/property-manager-product-migration-main@6320c17cb63/prod_change.py
+Traceback (most recent call last):
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/property-manager-product-migration-main@6320c17cb63/prod_change.py", line 9, in <module>
+    from PropertyManagerProductMigration.akamai_config import akatoken, akasso, xsrf_token, accountSwitchKey, edgerc_location, activation_emails, reviewer_email
+ModuleNotFoundError: No module named 'PropertyManagerProductMigration'
+(venv) tnaik@bos-mpwks property-manager-product-migration-main@6320c17cb63 % cd ..
+(venv) tnaik@bos-mpwks GeneralMotors % ls
+configlist.xls                                          prod_change.py
+General Motors Prperty list extract 7th Oct'25.xlsx     property-manager-product-migration-main
+GMCommand.txt                                           property-manager-product-migration-main@6320c17cb63.zip
+prod_change copy.py                                     requirements.txt
+(venv) tnaik@bos-mpwks GeneralMotors % cd property-manager-product-migration-main
+(venv) tnaik@bos-mpwks property-manager-product-migration-main % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/property-manager-product-migration-main/prod_change.py 
+Traceback (most recent call last):
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/property-manager-product-migration-main/prod_change.py", line 9, in <module>
+    from PropertyManagerProductMigration.akamai_config import akatoken, akasso, xsrf_token, accountSwitchKey, edgerc_location, activation_emails, reviewer_email
+ModuleNotFoundError: No module named 'PropertyManagerProductMigration'
+(venv) tnaik@bos-mpwks property-manager-product-migration-main % cd ..
+(venv) tnaik@bos-mpwks GeneralMotors % ls
+configlist.xls                                          prod_change.py
+General Motors Prperty list extract 7th Oct'25.xlsx     property-manager-product-migration
+GMCommand.txt                                           property-manager-product-migration-main@6320c17cb63.zip
+prod_change copy.py                                     requirements.txt
+(venv) tnaik@bos-mpwks GeneralMotors % cd  property-manager-product-migration
+(venv) tnaik@bos-mpwks property-manager-product-migration % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/property-manager-product-migration/prod_change.py 
+Traceback (most recent call last):
+  File "/Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/property-manager-product-migration/prod_change.py", line 9, in <module>
+    from PropertyManagerProductMigration.akamai_config import akatoken, akasso, xsrf_token, accountSwitchKey, edgerc_location, activation_emails, reviewer_email
+ModuleNotFoundError: No module named 'PropertyManagerProductMigration'
+(venv) tnaik@bos-mpwks property-manager-product-migration % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/property-manager-product-migration/prod_change.py
+2025-11-24 12:46:39,066 - INFO - ✅ Your session cookies are valid. Proceeding ahead with the product change...
+2025-11-24 12:46:49,926 - INFO - 🔄 Changing Product for 11260-FOS.vsp.tst.gm.com by creating new version 14
+2025-11-24 12:46:50,732 - INFO - ********************************************************************************
+2025-11-24 12:46:50,732 - INFO - Response Code: 200
+2025-11-24 12:46:50,732 - INFO - Response Body: {"result":"OK"}
+2025-11-24 12:46:50,732 - INFO - ********************************************************************************
+2025-11-24 12:46:50,732 - INFO - ✅ Successfully changed the product for 11260-FOS.vsp.tst.gm.com to Ion Standard
+(venv) tnaik@bos-mpwks property-manager-product-migration % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/property-manager-product-migration/prod_change.py --activate-to-staging
+2025-11-24 12:48:09,507 - INFO - ✅ Your session cookies are valid. Proceeding ahead with the product change...
+2025-11-24 12:48:21,057 - INFO - 🔄 Changing Product for 11260-FOS.vsp.tst.gm.com by creating new version 15
+2025-11-24 12:48:21,901 - INFO - ********************************************************************************
+2025-11-24 12:48:21,901 - INFO - Response Code: 200
+2025-11-24 12:48:21,901 - INFO - Response Body: {"result":"OK"}
+2025-11-24 12:48:21,901 - INFO - ********************************************************************************
+2025-11-24 12:48:21,901 - INFO - ✅ Successfully changed the product for 11260-FOS.vsp.tst.gm.com to Ion Standard
+2025-11-24 12:48:26,907 - INFO - 🚀 Activating 11260-FOS.vsp.tst.gm.com version 15 to Staging...
+2025-11-24 12:48:52,795 - INFO - ✅ Successfully activated 11260-FOS.vsp.tst.gm.com version 15 to Staging
+(venv) tnaik@bos-mpwks property-manager-product-migration % python3 /Users/tnaik/Downloads/MajorsAAP/IonPMigration/GeneralMotors/property-manager-product-migration/prod_change.py --activate-to-staging
+2025-11-24 13:51:39,909 - INFO - ✅ Your session cookies are valid. Proceeding ahead with the product change...
+2025-11-24 13:51:47,438 - INFO - 🔄 Changing Product for 152950-dcm.gm.com by creating new version 13
+2025-11-24 13:51:47,972 - INFO - ********************************************************************************
+2025-11-24 13:51:47,973 - INFO - Response Code: 200
+2025-11-24 13:51:47,973 - INFO - Response Body: {"result":"OK"}
+2025-11-24 13:51:47,973 - INFO - ********************************************************************************
+2025-11-24 13:51:47,973 - INFO - ✅ Successfully changed the product for 152950-dcm.gm.com to Ion Standard
+2025-11-24 13:51:52,978 - INFO - 🚀 Activating 152950-dcm.gm.com version 13 to Staging...
+2025-11-24 13:51:54,959 - ERROR - ❌ Activation failed for 152950-dcm.gm.com version 13
+2025-11-24 13:51:54,972 - ERROR - Response: {
+  "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/errors",
+  "instance" : "https://akab-bcluo3csng6cahgy-7ctwgu3ffall7zbs.luna.akamaiapis.net/papi/v1/properties/prp_574784/activations?contractId=ctr_15R-USCJ&groupId=grp_285413&accountSwitchKey=1-2JA0T%3A1-5G3LB#51aaeec7dcb289d4",
+  "status" : 400,
+  "warnings" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/product_behavior_issue",
+    "detail" : "The CP Code within `Content Provider Code` is not configured for use with the product used by this property, Ion Standard. Traffic for this property might not show up under the correct traffic reports.",
+    "messageId" : "msg_6d5ba81ed280e54126269fcc88a6ef5362cf2395"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/generic_behavior_issue",
+    "detail" : "The \"Allow All Methods on Parent Servers\" behavior must also be added for proper functionality",
+    "messageId" : "msg_c90a94ea24916879fec8813cc5745d6da2c6d1c0"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/product_behavior_issue",
+    "detail" : "The CP Code within `Content Provider Code` is not configured for use with the product used by this property, Ion Standard. Traffic for this property might not show up under the correct traffic reports.",
+    "messageId" : "msg_6d5ba81ed280e54126269fcc88a6ef5362cf2395"
+  } ],
+  "errors" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/attribute_required",
+    "detail" : "The Minimum TLS version option on the `Origin Server` behavior is required.",
+    "messageId" : "msg_24d22ae5923d1c8dda4603f19d74b7e968bb2ec4"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/attribute_required",
+    "detail" : "The Loader Snippet Version option on the `mPulse` behavior is required.",
+    "messageId" : "msg_24d22ae5923d1c8dda4603f19d74b7e968bb2ec4"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/attribute_required",
+    "detail" : "The Minimum TLS version option on the `Origin Server` behavior is required.",
+    "messageId" : "msg_24d22ae5923d1c8dda4603f19d74b7e968bb2ec4"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/validation_errors_exist",
+    "detail" : "There are validation errors that exist. Please return to the edit page to correct them.",
+    "messageId" : "msg_48d270436925422781ac6dd06763470987ed7a5d"
+  } ]
+}
+2025-11-24 13:51:58,145 - INFO - 🔄 Changing Product for 155529-nextgenvisualizer.gm.com by creating new version 0
+2025-11-24 13:51:58,685 - INFO - ********************************************************************************
+2025-11-24 13:51:58,685 - INFO - Response Code: 400
+2025-11-24 13:51:58,686 - INFO - Response Body: {"type":"https://problems.luna.akamaiapis.net/pm-backend/toolkit/version_for_asset_id_does_not_exist","title":"Property Manager Exception","instance":"https://control.akamai.com:443/pm-backend-green/service/v1/properties/set_product#9ede2dc976c126db","status":400,"errors":[{"type":"https://problems.luna.akamaiapis.net/pm-backend/toolkit/version_for_asset_id_does_not_exist","title":"Property Manager Exception","detail":"version_for_asset_id_does_not_exist"}],"details":{},"messageId":"version_for_asset_id_does_not_exist","params":["Asset Id 11209010","Version 0"],"result":"ERROR"}
+2025-11-24 13:51:58,686 - INFO - ********************************************************************************
+2025-11-24 13:51:58,686 - ERROR - ❌ Error changing the product for 155529-nextgenvisualizer.gm.com to Ion Standard
+2025-11-24 13:52:01,514 - INFO - 🔄 Changing Product for 170212-BYO by creating new version 0
+2025-11-24 13:52:02,055 - INFO - ********************************************************************************
+2025-11-24 13:52:02,055 - INFO - Response Code: 400
+2025-11-24 13:52:02,056 - INFO - Response Body: {"type":"https://problems.luna.akamaiapis.net/pm-backend/toolkit/version_for_asset_id_does_not_exist","title":"Property Manager Exception","instance":"https://control.akamai.com:443/pm-backend-green/service/v1/properties/set_product#61ebfd213582e2cd","status":400,"errors":[{"type":"https://problems.luna.akamaiapis.net/pm-backend/toolkit/version_for_asset_id_does_not_exist","title":"Property Manager Exception","detail":"version_for_asset_id_does_not_exist"}],"details":{},"messageId":"version_for_asset_id_does_not_exist","params":["Asset Id 11397793","Version 0"],"result":"ERROR"}
+2025-11-24 13:52:02,056 - INFO - ********************************************************************************
+2025-11-24 13:52:02,056 - ERROR - ❌ Error changing the product for 170212-BYO to Ion Standard
+2025-11-24 13:52:05,509 - INFO - 🔄 Changing Product for 200286-d2c-shop by creating new version 0
+2025-11-24 13:52:06,224 - INFO - ********************************************************************************
+2025-11-24 13:52:06,225 - INFO - Response Code: 400
+2025-11-24 13:52:06,227 - INFO - Response Body: {"type":"https://problems.luna.akamaiapis.net/pm-backend/toolkit/version_for_asset_id_does_not_exist","title":"Property Manager Exception","instance":"https://control.akamai.com:443/pm-backend-green/service/v1/properties/set_product#6fcaded0b623eca9","status":400,"errors":[{"type":"https://problems.luna.akamaiapis.net/pm-backend/toolkit/version_for_asset_id_does_not_exist","title":"Property Manager Exception","detail":"version_for_asset_id_does_not_exist"}],"details":{},"messageId":"version_for_asset_id_does_not_exist","params":["Asset Id 11239166","Version 0"],"result":"ERROR"}
+2025-11-24 13:52:06,227 - INFO - ********************************************************************************
+2025-11-24 13:52:06,227 - ERROR - ❌ Error changing the product for 200286-d2c-shop to Ion Standard
+2025-11-24 13:52:09,496 - INFO - 🔄 Changing Product for 204632-Cadia.Cadillac.Com.com by creating new version 0
+2025-11-24 13:52:10,014 - INFO - ********************************************************************************
+2025-11-24 13:52:10,014 - INFO - Response Code: 400
+2025-11-24 13:52:10,016 - INFO - Response Body: {"type":"https://problems.luna.akamaiapis.net/pm-backend/toolkit/version_for_asset_id_does_not_exist","title":"Property Manager Exception","instance":"https://control.akamai.com:443/pm-backend-green/service/v1/properties/set_product#4b397af3f362436b","status":400,"errors":[{"type":"https://problems.luna.akamaiapis.net/pm-backend/toolkit/version_for_asset_id_does_not_exist","title":"Property Manager Exception","detail":"version_for_asset_id_does_not_exist"}],"details":{},"messageId":"version_for_asset_id_does_not_exist","params":["Asset Id 11144384","Version 0"],"result":"ERROR"}
+2025-11-24 13:52:10,016 - INFO - ********************************************************************************
+2025-11-24 13:52:10,016 - ERROR - ❌ Error changing the product for 204632-Cadia.Cadillac.Com.com to Ion Standard
+2025-11-24 13:52:13,221 - INFO - 🔄 Changing Product for 213147-developer.ultifi.gm.com by creating new version 0
+2025-11-24 13:52:13,729 - INFO - ********************************************************************************
+2025-11-24 13:52:13,729 - INFO - Response Code: 400
+2025-11-24 13:52:13,730 - INFO - Response Body: {"type":"https://problems.luna.akamaiapis.net/pm-backend/toolkit/version_for_asset_id_does_not_exist","title":"Property Manager Exception","instance":"https://control.akamai.com:443/pm-backend-green/service/v1/properties/set_product#9eb36373f5217986","status":400,"errors":[{"type":"https://problems.luna.akamaiapis.net/pm-backend/toolkit/version_for_asset_id_does_not_exist","title":"Property Manager Exception","detail":"version_for_asset_id_does_not_exist"}],"details":{},"messageId":"version_for_asset_id_does_not_exist","params":["Asset Id 11202523","Version 0"],"result":"ERROR"}
+2025-11-24 13:52:13,731 - INFO - ********************************************************************************
+2025-11-24 13:52:13,731 - ERROR - ❌ Error changing the product for 213147-developer.ultifi.gm.com to Ion Standard
+2025-11-24 13:52:18,757 - INFO - 🔄 Changing Product for digitalsignage.gm.com_pm by creating new version 4
+2025-11-24 13:52:19,365 - INFO - ********************************************************************************
+2025-11-24 13:52:19,366 - INFO - Response Code: 200
+2025-11-24 13:52:19,366 - INFO - Response Body: {"result":"OK"}
+2025-11-24 13:52:19,366 - INFO - ********************************************************************************
+2025-11-24 13:52:19,366 - INFO - ✅ Successfully changed the product for digitalsignage.gm.com_pm to Ion Standard
+2025-11-24 13:52:24,371 - INFO - 🚀 Activating digitalsignage.gm.com_pm version 4 to Staging...
+2025-11-24 13:52:27,935 - ERROR - ❌ Activation failed for digitalsignage.gm.com_pm version 4
+2025-11-24 13:52:27,954 - ERROR - Response: {
+  "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/errors",
+  "instance" : "https://akab-bcluo3csng6cahgy-7ctwgu3ffall7zbs.luna.akamaiapis.net/papi/v1/properties/prp_335709/activations?contractId=ctr_15R-USCJ&groupId=grp_285413&accountSwitchKey=1-2JA0T%3A1-5G3LB#9fb6142d600c843b",
+  "status" : 400,
+  "warnings" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/product_behavior_issue",
+    "detail" : "The CP Code within `Content Provider Code` is not configured for use with the product used by this property, Ion Standard. Traffic for this property might not show up under the correct traffic reports.",
+    "messageId" : "msg_6d5ba81ed280e54126269fcc88a6ef5362cf2395"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/generic_behavior_issue",
+    "detail" : "The \"Allow All Methods on Parent Servers\" behavior must also be added for proper functionality",
+    "messageId" : "msg_c90a94ea24916879fec8813cc5745d6da2c6d1c0"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/need_condition",
+    "detail" : "To ensure files compress correctly, you should use the `Last Mile Acceleration (Gzip Compression)` behavior within the Content Type match.",
+    "messageId" : "msg_7bd9a455f18eb6207ed3dba4918c7ca0db741c0d"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/need_condition",
+    "detail" : "To ensure files compress correctly, you should use the `Last Mile Acceleration (Gzip Compression)` behavior within the Content Type match.",
+    "messageId" : "msg_7bd9a455f18eb6207ed3dba4918c7ca0db741c0d"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/need_condition",
+    "detail" : "To ensure files compress correctly, you should use the `Last Mile Acceleration (Gzip Compression)` behavior within the Content Type match.",
+    "messageId" : "msg_7bd9a455f18eb6207ed3dba4918c7ca0db741c0d"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/product_behavior_issue",
+    "detail" : "The CP Code within `Content Provider Code` is not configured for use with the product used by this property, Ion Standard. Traffic for this property might not show up under the correct traffic reports.",
+    "messageId" : "msg_6d5ba81ed280e54126269fcc88a6ef5362cf2395"
+  } ],
+  "errors" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/attribute_required",
+    "detail" : "The Minimum TLS version option on the `Origin Server` behavior is required.",
+    "messageId" : "msg_24d22ae5923d1c8dda4603f19d74b7e968bb2ec4"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/attribute_required",
+    "detail" : "The Minimum TLS version option on the `Origin Server` behavior is required.",
+    "messageId" : "msg_24d22ae5923d1c8dda4603f19d74b7e968bb2ec4"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/validation_errors_exist",
+    "detail" : "There are validation errors that exist. Please return to the edit page to correct them.",
+    "messageId" : "msg_48d270436925422781ac6dd06763470987ed7a5d"
+  } ]
+}
+2025-11-24 13:52:35,036 - INFO - 🔄 Changing Product for ecom.ext.gm.com by creating new version 17
+2025-11-24 13:52:35,718 - INFO - ********************************************************************************
+2025-11-24 13:52:35,718 - INFO - Response Code: 200
+2025-11-24 13:52:35,718 - INFO - Response Body: {"result":"OK"}
+2025-11-24 13:52:35,718 - INFO - ********************************************************************************
+2025-11-24 13:52:35,718 - INFO - ✅ Successfully changed the product for ecom.ext.gm.com to Ion Standard
+2025-11-24 13:52:40,724 - INFO - 🚀 Activating ecom.ext.gm.com version 17 to Staging...
+2025-11-24 13:52:54,484 - INFO - ✅ Successfully activated ecom.ext.gm.com version 17 to Staging
+2025-11-24 13:53:01,354 - INFO - 🔄 Changing Product for EDSE_Pre_Prod by creating new version 10
+2025-11-24 13:53:02,236 - INFO - ********************************************************************************
+2025-11-24 13:53:02,236 - INFO - Response Code: 200
+2025-11-24 13:53:02,236 - INFO - Response Body: {"result":"OK"}
+2025-11-24 13:53:02,236 - INFO - ********************************************************************************
+2025-11-24 13:53:02,236 - INFO - ✅ Successfully changed the product for EDSE_Pre_Prod to Ion Standard
+2025-11-24 13:53:07,237 - INFO - 🚀 Activating EDSE_Pre_Prod version 10 to Staging...
+2025-11-24 13:53:09,714 - ERROR - ❌ Activation failed for EDSE_Pre_Prod version 10
+2025-11-24 13:53:09,737 - ERROR - Response: {
+  "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/errors",
+  "instance" : "https://akab-bcluo3csng6cahgy-7ctwgu3ffall7zbs.luna.akamaiapis.net/papi/v1/properties/prp_301158/activations?contractId=ctr_15R-USCJ&groupId=grp_285413&accountSwitchKey=1-2JA0T%3A1-5G3LB#f3ef7cd28fdc93a7",
+  "status" : 400,
+  "warnings" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/product_behavior_issue",
+    "detail" : "The CP Code within `Content Provider Code` is not configured for use with the product used by this property, Ion Standard. Traffic for this property might not show up under the correct traffic reports.",
+    "messageId" : "msg_6d5ba81ed280e54126269fcc88a6ef5362cf2395"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/generic_behavior_issue",
+    "detail" : "The \"Allow All Methods on Parent Servers\" behavior must also be added for proper functionality",
+    "messageId" : "msg_c90a94ea24916879fec8813cc5745d6da2c6d1c0"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/generic_behavior_issue",
+    "detail" : "<strong> Important </strong>: Real User Monitoring reports are no longer available. You can continue to use RUM for Adaptive Acceleration, but we <strong>recommend switching to mPulse</strong>.",
+    "messageId" : "msg_c90a94ea24916879fec8813cc5745d6da2c6d1c0"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/product_behavior_issue",
+    "detail" : "The CP Code within `Content Provider Code` is not configured for use with the product used by this property, Ion Standard. Traffic for this property might not show up under the correct traffic reports.",
+    "messageId" : "msg_6d5ba81ed280e54126269fcc88a6ef5362cf2395"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/product_behavior_issue",
+    "detail" : "The CP Code within `Content Provider Code` is not configured for use with the product used by this property, Ion Standard. Traffic for this property might not show up under the correct traffic reports.",
+    "messageId" : "msg_6d5ba81ed280e54126269fcc88a6ef5362cf2395"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/conflicting_xml",
+    "detail" : "One or more Origin Server behaviors may not work as expected due to Advanced behaviors or Advanced Override matching expression //auth:origin.signature. Consult your account representative or see <a href=\"/dl/property-manager/property-manager-help/csh_lookup.html?id=PM_0119\" target=\"_blank\">Advanced</a> for more information.",
+    "messageId" : "msg_5914beb1e7408ef51e22ff750a1f8a3a7176ad8c"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/conflicting_xml",
+    "detail" : "One or more Content Provider Code behaviors may not work as expected due to Advanced behaviors or Advanced Override matching expression //reporting:cpcode. Consult your account representative or see <a href=\"/dl/property-manager/property-manager-help/csh_lookup.html?id=PM_0119\" target=\"_blank\">Advanced</a> for more information.",
+    "messageId" : "msg_5914beb1e7408ef51e22ff750a1f8a3a7176ad8c"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/conflicting_xml",
+    "detail" : "One or more Allow POST behaviors may not work as expected due to Advanced behaviors or Advanced Override matching expression //security:allow-post. Consult your account representative or see <a href=\"/dl/property-manager/property-manager-help/csh_lookup.html?id=PM_0119\" target=\"_blank\">Advanced</a> for more information.",
+    "messageId" : "msg_5914beb1e7408ef51e22ff750a1f8a3a7176ad8c"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/advanced_override_metadata_enabled",
+    "detail" : "This property contains <strong>advanced override metadata</strong>. This will potentially override any of the rule configurations that have been set above.",
+    "messageId" : "msg_d67f3ec07a9f293c227ce30894516941d84fac37"
+  } ],
+  "errors" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/attribute_required",
+    "detail" : "The Minimum TLS version option on the `Origin Server` behavior is required.",
+    "messageId" : "msg_24d22ae5923d1c8dda4603f19d74b7e968bb2ec4"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/validation_errors_exist",
+    "detail" : "There are validation errors that exist. Please return to the edit page to correct them.",
+    "messageId" : "msg_48d270436925422781ac6dd06763470987ed7a5d"
+  } ]
+}
+2025-11-24 13:53:16,065 - INFO - 🔄 Changing Product for EDSE_Prod_New by creating new version 19
+2025-11-24 13:53:16,777 - INFO - ********************************************************************************
+2025-11-24 13:53:16,777 - INFO - Response Code: 200
+2025-11-24 13:53:16,777 - INFO - Response Body: {"result":"OK"}
+2025-11-24 13:53:16,777 - INFO - ********************************************************************************
+2025-11-24 13:53:16,777 - INFO - ✅ Successfully changed the product for EDSE_Prod_New to Ion Standard
+2025-11-24 13:53:21,778 - INFO - 🚀 Activating EDSE_Prod_New version 19 to Staging...
+2025-11-24 13:53:25,177 - ERROR - ❌ Activation failed for EDSE_Prod_New version 19
+2025-11-24 13:53:25,186 - ERROR - Response: {
+  "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/errors",
+  "instance" : "https://akab-bcluo3csng6cahgy-7ctwgu3ffall7zbs.luna.akamaiapis.net/papi/v1/properties/prp_315065/activations?contractId=ctr_15R-USCJ&groupId=grp_285413&accountSwitchKey=1-2JA0T%3A1-5G3LB#77b944ecff20cd96",
+  "status" : 400,
+  "warnings" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/product_behavior_issue",
+    "detail" : "The CP Code within `Content Provider Code` is not configured for use with the product used by this property, Ion Standard. Traffic for this property might not show up under the correct traffic reports.",
+    "messageId" : "msg_6d5ba81ed280e54126269fcc88a6ef5362cf2395"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/generic_behavior_issue",
+    "detail" : "The \"Allow All Methods on Parent Servers\" behavior must also be added for proper functionality",
+    "messageId" : "msg_c90a94ea24916879fec8813cc5745d6da2c6d1c0"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/product_behavior_issue",
+    "detail" : "The CP Code within `Content Provider Code` is not configured for use with the product used by this property, Ion Standard. Traffic for this property might not show up under the correct traffic reports.",
+    "messageId" : "msg_6d5ba81ed280e54126269fcc88a6ef5362cf2395"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/need_condition",
+    "detail" : "To ensure files compress correctly, you should use the `Last Mile Acceleration (Gzip Compression)` behavior within the Content Type match.",
+    "messageId" : "msg_7bd9a455f18eb6207ed3dba4918c7ca0db741c0d"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/need_condition",
+    "detail" : "To ensure files compress correctly, you should use the `Last Mile Acceleration (Gzip Compression)` behavior within the Content Type match.",
+    "messageId" : "msg_7bd9a455f18eb6207ed3dba4918c7ca0db741c0d"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/need_condition",
+    "detail" : "To ensure files compress correctly, you should use the `Last Mile Acceleration (Gzip Compression)` behavior within the Content Type match.",
+    "messageId" : "msg_7bd9a455f18eb6207ed3dba4918c7ca0db741c0d"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/conflicting_xml",
+    "detail" : "One or more Origin Server behaviors may not work as expected due to Advanced behaviors or Advanced Override matching expression //auth:origin.signature. Consult your account representative or see <a href=\"/dl/property-manager/property-manager-help/csh_lookup.html?id=PM_0119\" target=\"_blank\">Advanced</a> for more information.",
+    "messageId" : "msg_5914beb1e7408ef51e22ff750a1f8a3a7176ad8c"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/conflicting_xml",
+    "detail" : "One or more Content Provider Code behaviors may not work as expected due to Advanced behaviors or Advanced Override matching expression //reporting:cpcode. Consult your account representative or see <a href=\"/dl/property-manager/property-manager-help/csh_lookup.html?id=PM_0119\" target=\"_blank\">Advanced</a> for more information.",
+    "messageId" : "msg_5914beb1e7408ef51e22ff750a1f8a3a7176ad8c"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/conflicting_xml",
+    "detail" : "One or more Allow POST behaviors may not work as expected due to Advanced behaviors or Advanced Override matching expression //security:allow-post. Consult your account representative or see <a href=\"/dl/property-manager/property-manager-help/csh_lookup.html?id=PM_0119\" target=\"_blank\">Advanced</a> for more information.",
+    "messageId" : "msg_5914beb1e7408ef51e22ff750a1f8a3a7176ad8c"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/advanced_override_metadata_enabled",
+    "detail" : "This property contains <strong>advanced override metadata</strong>. This will potentially override any of the rule configurations that have been set above.",
+    "messageId" : "msg_d67f3ec07a9f293c227ce30894516941d84fac37"
+  } ],
+  "errors" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/attribute_required",
+    "detail" : "The Minimum TLS version option on the `Origin Server` behavior is required.",
+    "messageId" : "msg_24d22ae5923d1c8dda4603f19d74b7e968bb2ec4"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/validation_errors_exist",
+    "detail" : "There are validation errors that exist. Please return to the edit page to correct them.",
+    "messageId" : "msg_48d270436925422781ac6dd06763470987ed7a5d"
+  } ]
+}
+No Configuration with failover-www.autopartners.net Found
+No Configuration Found
+No Configuration Found
+2025-11-24 13:53:25,428 - INFO - 🔄 Changing Product for failover-www.autopartners.net by creating new version -1
+2025-11-24 13:53:25,600 - INFO - ********************************************************************************
+2025-11-24 13:53:25,600 - INFO - Response Code: 403
+2025-11-24 13:53:25,600 - INFO - Response Body: {"type":"https://problems.luna.akamaiapis.net/pm-backend/http/forbidden","title":"PropertyManager Exception","status":403,"errors":[{"type":"https://problems.luna.akamaiapis.net/pm-backend/http/forbidden","title":"Forbidden","detail":"bad_group_id"}],"details":{},"messageId":"bad_group_id","params":[],"result":"ERROR"}
+2025-11-24 13:53:25,600 - INFO - ********************************************************************************
+2025-11-24 13:53:25,600 - ERROR - ❌ Error changing the product for failover-www.autopartners.net to Ion Standard
+2025-11-24 13:53:31,728 - INFO - 🔄 Changing Product for gcrm-eur.rit.gm.com.xml by creating new version 3
+2025-11-24 13:53:32,444 - INFO - ********************************************************************************
+2025-11-24 13:53:32,445 - INFO - Response Code: 200
+2025-11-24 13:53:32,445 - INFO - Response Body: {"result":"OK"}
+2025-11-24 13:53:32,445 - INFO - ********************************************************************************
+2025-11-24 13:53:32,445 - INFO - ✅ Successfully changed the product for gcrm-eur.rit.gm.com.xml to Ion Standard
+2025-11-24 13:53:37,448 - INFO - 🚀 Activating gcrm-eur.rit.gm.com.xml version 3 to Staging...
+2025-11-24 13:53:39,362 - ERROR - ❌ Activation failed for gcrm-eur.rit.gm.com.xml version 3
+2025-11-24 13:53:39,365 - ERROR - Response: {
+  "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/errors",
+  "instance" : "https://akab-bcluo3csng6cahgy-7ctwgu3ffall7zbs.luna.akamaiapis.net/papi/v1/properties/prp_277874/activations?contractId=ctr_15R-USCJ&groupId=grp_285413&accountSwitchKey=1-2JA0T%3A1-5G3LB#f6f5578aa19ca98f",
+  "status" : 400,
+  "warnings" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/generic_behavior_issue",
+    "detail" : "The \"Allow All Methods on Parent Servers\" behavior must also be added for proper functionality",
+    "messageId" : "msg_c90a94ea24916879fec8813cc5745d6da2c6d1c0"
+  } ],
+  "errors" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/attribute_required",
+    "detail" : "The Minimum TLS version option on the `Origin Server` behavior is required.",
+    "messageId" : "msg_24d22ae5923d1c8dda4603f19d74b7e968bb2ec4"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/attribute_required",
+    "detail" : "The Enable option on the `Real User Monitoring (RUM)` behavior is required.",
+    "messageId" : "msg_24d22ae5923d1c8dda4603f19d74b7e968bb2ec4"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/unknown_attribute",
+    "detail" : "The behavior '`Real User Monitoring (RUM)`' does not have status.",
+    "messageId" : "msg_bdedaaa7aea49af6cc4cfe0ba6a91b89148e996f"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/validation_errors_exist",
+    "detail" : "There are validation errors that exist. Please return to the edit page to correct them.",
+    "messageId" : "msg_48d270436925422781ac6dd06763470987ed7a5d"
+  } ]
+}
+2025-11-24 13:53:43,808 - INFO - 🔄 Changing Product for gmsupplypower.com by creating new version 12
+2025-11-24 13:53:44,428 - INFO - ********************************************************************************
+2025-11-24 13:53:44,428 - INFO - Response Code: 200
+2025-11-24 13:53:44,428 - INFO - Response Body: {"result":"OK"}
+2025-11-24 13:53:44,428 - INFO - ********************************************************************************
+2025-11-24 13:53:44,428 - INFO - ✅ Successfully changed the product for gmsupplypower.com to Ion Standard
+2025-11-24 13:53:49,434 - INFO - 🚀 Activating gmsupplypower.com version 12 to Staging...
+2025-11-24 13:53:51,969 - ERROR - ❌ Activation failed for gmsupplypower.com version 12
+2025-11-24 13:53:51,979 - ERROR - Response: {
+  "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/errors",
+  "instance" : "https://akab-bcluo3csng6cahgy-7ctwgu3ffall7zbs.luna.akamaiapis.net/papi/v1/properties/prp_535784/activations?contractId=ctr_15R-USCJ&groupId=grp_285413&accountSwitchKey=1-2JA0T%3A1-5G3LB#89c62e544618cdf2",
+  "status" : 400,
+  "warnings" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/product_behavior_issue",
+    "detail" : "The CP Code within `Content Provider Code` is not configured for use with the product used by this property, Ion Standard. Traffic for this property might not show up under the correct traffic reports.",
+    "messageId" : "msg_6d5ba81ed280e54126269fcc88a6ef5362cf2395"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/generic_behavior_issue",
+    "detail" : "The \"Allow All Methods on Parent Servers\" behavior must also be added for proper functionality",
+    "messageId" : "msg_c90a94ea24916879fec8813cc5745d6da2c6d1c0"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/product_behavior_issue",
+    "detail" : "The CP Code within `Content Provider Code` is not configured for use with the product used by this property, Ion Standard. Traffic for this property might not show up under the correct traffic reports.",
+    "messageId" : "msg_6d5ba81ed280e54126269fcc88a6ef5362cf2395"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/product_behavior_issue",
+    "detail" : "The CP Code within `Content Provider Code` is not configured for use with the product used by this property, Ion Standard. Traffic for this property might not show up under the correct traffic reports.",
+    "messageId" : "msg_6d5ba81ed280e54126269fcc88a6ef5362cf2395"
+  } ],
+  "errors" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/attribute_required",
+    "detail" : "The Minimum TLS version option on the `Origin Server` behavior is required.",
+    "messageId" : "msg_24d22ae5923d1c8dda4603f19d74b7e968bb2ec4"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/validation_errors_exist",
+    "detail" : "There are validation errors that exist. Please return to the edit page to correct them.",
+    "messageId" : "msg_48d270436925422781ac6dd06763470987ed7a5d"
+  } ]
+}
+2025-11-24 13:53:57,941 - INFO - 🔄 Changing Product for imtapp.pp.gm.com by creating new version 6
+2025-11-24 13:53:58,575 - INFO - ********************************************************************************
+2025-11-24 13:53:58,576 - INFO - Response Code: 200
+2025-11-24 13:53:58,576 - INFO - Response Body: {"result":"OK"}
+2025-11-24 13:53:58,576 - INFO - ********************************************************************************
+2025-11-24 13:53:58,576 - INFO - ✅ Successfully changed the product for imtapp.pp.gm.com to Ion Standard
+2025-11-24 13:54:03,581 - INFO - 🚀 Activating imtapp.pp.gm.com version 6 to Staging...
+2025-11-24 13:54:05,728 - ERROR - ❌ Activation failed for imtapp.pp.gm.com version 6
+2025-11-24 13:54:05,747 - ERROR - Response: {
+  "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/errors",
+  "instance" : "https://akab-bcluo3csng6cahgy-7ctwgu3ffall7zbs.luna.akamaiapis.net/papi/v1/properties/prp_406855/activations?contractId=ctr_15R-USCJ&groupId=grp_285413&accountSwitchKey=1-2JA0T%3A1-5G3LB#b697f1ede68a011e",
+  "status" : 400,
+  "warnings" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/product_behavior_issue",
+    "detail" : "The CP Code within `Content Provider Code` is not configured for use with the product used by this property, Ion Standard. Traffic for this property might not show up under the correct traffic reports.",
+    "messageId" : "msg_6d5ba81ed280e54126269fcc88a6ef5362cf2395"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/generic_behavior_issue",
+    "detail" : "The \"Allow All Methods on Parent Servers\" behavior must also be added for proper functionality",
+    "messageId" : "msg_c90a94ea24916879fec8813cc5745d6da2c6d1c0"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/generic_behavior_issue",
+    "detail" : "<strong> Important </strong>: Real User Monitoring reports are no longer available. You can continue to use RUM for Adaptive Acceleration, but we <strong>recommend switching to mPulse</strong>.",
+    "messageId" : "msg_c90a94ea24916879fec8813cc5745d6da2c6d1c0"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/product_behavior_issue",
+    "detail" : "The CP Code within `Content Provider Code` is not configured for use with the product used by this property, Ion Standard. Traffic for this property might not show up under the correct traffic reports.",
+    "messageId" : "msg_6d5ba81ed280e54126269fcc88a6ef5362cf2395"
+  } ],
+  "errors" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/attribute_required",
+    "detail" : "The Minimum TLS version option on the `Origin Server` behavior is required.",
+    "messageId" : "msg_24d22ae5923d1c8dda4603f19d74b7e968bb2ec4"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/attribute_required",
+    "detail" : "The Minimum TLS version option on the `Origin Server` behavior is required.",
+    "messageId" : "msg_24d22ae5923d1c8dda4603f19d74b7e968bb2ec4"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/not_granted_by_modules_on_contract",
+    "detail" : "`Adaptive Image Compression` is not available with the modules currently on contract 15R-USCJ. You must either remove it, change the contract, or add one of the following modules to your contract: Adaptive Image Compression.",
+    "messageId" : "msg_8c7fe120cd72082016abd674def28c5e384995de"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/validation_errors_exist",
+    "detail" : "There are validation errors that exist. Please return to the edit page to correct them.",
+    "messageId" : "msg_48d270436925422781ac6dd06763470987ed7a5d"
+  } ]
+}
+2025-11-24 13:54:11,898 - INFO - 🔄 Changing Product for pp.gmsupplypower.com by creating new version 3
+2025-11-24 13:54:12,692 - INFO - ********************************************************************************
+2025-11-24 13:54:12,693 - INFO - Response Code: 200
+2025-11-24 13:54:12,693 - INFO - Response Body: {"result":"OK"}
+2025-11-24 13:54:12,693 - INFO - ********************************************************************************
+2025-11-24 13:54:12,693 - INFO - ✅ Successfully changed the product for pp.gmsupplypower.com to Ion Standard
+2025-11-24 13:54:17,697 - INFO - 🚀 Activating pp.gmsupplypower.com version 3 to Staging...
+2025-11-24 13:54:19,492 - ERROR - ❌ Activation failed for pp.gmsupplypower.com version 3
+2025-11-24 13:54:19,507 - ERROR - Response: {
+  "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/errors",
+  "instance" : "https://akab-bcluo3csng6cahgy-7ctwgu3ffall7zbs.luna.akamaiapis.net/papi/v1/properties/prp_541276/activations?contractId=ctr_15R-USCJ&groupId=grp_285413&accountSwitchKey=1-2JA0T%3A1-5G3LB#a6853af71089aa02",
+  "status" : 400,
+  "warnings" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/generic_behavior_issue",
+    "detail" : "The \"Allow All Methods on Parent Servers\" behavior must also be added for proper functionality",
+    "messageId" : "msg_c90a94ea24916879fec8813cc5745d6da2c6d1c0"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/product_behavior_issue",
+    "detail" : "The CP Code within `Content Provider Code` is not configured for use with the product used by this property, Ion Standard. Traffic for this property might not show up under the correct traffic reports.",
+    "messageId" : "msg_6d5ba81ed280e54126269fcc88a6ef5362cf2395"
+  } ],
+  "errors" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/attribute_required",
+    "detail" : "The Minimum TLS version option on the `Origin Server` behavior is required.",
+    "messageId" : "msg_24d22ae5923d1c8dda4603f19d74b7e968bb2ec4"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/attribute_required",
+    "detail" : "The Loader Snippet Version option on the `mPulse` behavior is required.",
+    "messageId" : "msg_24d22ae5923d1c8dda4603f19d74b7e968bb2ec4"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/validation_errors_exist",
+    "detail" : "There are validation errors that exist. Please return to the edit page to correct them.",
+    "messageId" : "msg_48d270436925422781ac6dd06763470987ed7a5d"
+  } ]
+}
+No Configuration with t2sintouch.pre.rit.gm.com Found
+No Configuration Found
+No Configuration Found
+2025-11-24 13:54:19,682 - INFO - 🔄 Changing Product for t2sintouch.pre.rit.gm.com by creating new version -1
+2025-11-24 13:54:19,865 - INFO - ********************************************************************************
+2025-11-24 13:54:19,865 - INFO - Response Code: 403
+2025-11-24 13:54:19,865 - INFO - Response Body: {"type":"https://problems.luna.akamaiapis.net/pm-backend/http/forbidden","title":"PropertyManager Exception","status":403,"errors":[{"type":"https://problems.luna.akamaiapis.net/pm-backend/http/forbidden","title":"Forbidden","detail":"bad_group_id"}],"details":{},"messageId":"bad_group_id","params":[],"result":"ERROR"}
+2025-11-24 13:54:19,865 - INFO - ********************************************************************************
+2025-11-24 13:54:19,865 - ERROR - ❌ Error changing the product for t2sintouch.pre.rit.gm.com to Ion Standard
+No Configuration with www.autopartners.net Found
+No Configuration Found
+No Configuration Found
+2025-11-24 13:54:20,079 - INFO - 🔄 Changing Product for www.autopartners.net by creating new version -1
+2025-11-24 13:54:20,291 - INFO - ********************************************************************************
+2025-11-24 13:54:20,291 - INFO - Response Code: 403
+2025-11-24 13:54:20,291 - INFO - Response Body: {"type":"https://problems.luna.akamaiapis.net/pm-backend/http/forbidden","title":"PropertyManager Exception","status":403,"errors":[{"type":"https://problems.luna.akamaiapis.net/pm-backend/http/forbidden","title":"Forbidden","detail":"bad_group_id"}],"details":{},"messageId":"bad_group_id","params":[],"result":"ERROR"}
+2025-11-24 13:54:20,291 - INFO - ********************************************************************************
+2025-11-24 13:54:20,291 - ERROR - ❌ Error changing the product for www.autopartners.net to Ion Standard
+2025-11-24 13:54:26,306 - INFO - 🔄 Changing Product for www.gmdealerdevelopment.com by creating new version 6
+2025-11-24 13:54:27,127 - INFO - ********************************************************************************
+2025-11-24 13:54:27,127 - INFO - Response Code: 200
+2025-11-24 13:54:27,127 - INFO - Response Body: {"result":"OK"}
+2025-11-24 13:54:27,128 - INFO - ********************************************************************************
+2025-11-24 13:54:27,128 - INFO - ✅ Successfully changed the product for www.gmdealerdevelopment.com to Ion Standard
+2025-11-24 13:54:32,130 - INFO - 🚀 Activating www.gmdealerdevelopment.com version 6 to Staging...
+2025-11-24 13:54:33,887 - ERROR - ❌ Activation failed for www.gmdealerdevelopment.com version 6
+2025-11-24 13:54:33,898 - ERROR - Response: {
+  "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/errors",
+  "instance" : "https://akab-bcluo3csng6cahgy-7ctwgu3ffall7zbs.luna.akamaiapis.net/papi/v1/properties/prp_370086/activations?contractId=ctr_15R-USCJ&groupId=grp_285413&accountSwitchKey=1-2JA0T%3A1-5G3LB#80ac0f5562ec4249",
+  "status" : 400,
+  "warnings" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/generic_behavior_issue",
+    "detail" : "The \"Allow All Methods on Parent Servers\" behavior must also be added for proper functionality",
+    "messageId" : "msg_c90a94ea24916879fec8813cc5745d6da2c6d1c0"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/generic_behavior_issue",
+    "detail" : "<strong> Important </strong>: Real User Monitoring reports are no longer available. You can continue to use RUM for Adaptive Acceleration, but we <strong>recommend switching to mPulse</strong>.",
+    "messageId" : "msg_c90a94ea24916879fec8813cc5745d6da2c6d1c0"
+  } ],
+  "errors" : [ {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/attribute_required",
+    "detail" : "The Minimum TLS version option on the `Origin Server` behavior is required.",
+    "messageId" : "msg_24d22ae5923d1c8dda4603f19d74b7e968bb2ec4"
+  }, {
+    "type" : "https://problems.luna.akamaiapis.net/papi/v0/activation/validation_errors_exist",
+    "detail" : "There are validation errors that exist. Please return to the edit page to correct them.",
+    "messageId" : "msg_48d270436925422781ac6dd06763470987ed7a5d"
+  } ]
+}
